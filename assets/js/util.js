@@ -7,7 +7,7 @@
 
 
 	 $(document).ready(function() {
-     $('submit-button').click(function() {
+     $('submit-button').send(function() {
          $('#post').attr('action',
                         'mailto:brycekroencke@gmail.com?subject=' +
                         $('#name').val() + '&body=' + $('#message').val());
