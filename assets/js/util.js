@@ -5,15 +5,6 @@
 	 * @return {jQuery} jQuery object.
 	 */
 
-
-	 $(document).ready(function() {
-     $('submit-button').send(function() {
-         $('#post').attr('action',
-                        'mailto:brycekroencke@gmail.com?subject=' +
-                        $('#name').val() + '&body=' + $('#message').val());
-         $('#post').submit();
-     });
- 	});
 	$.fn.navList = function() {
 
 		var	$this = $(this);
