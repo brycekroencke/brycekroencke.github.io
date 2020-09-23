@@ -48,7 +48,7 @@
 							document.addEventListener("adobe_dc_view_sdk.ready", function(){
 								var adobeDCView = new AdobeDC.View({clientId: "3bdd2334c3cd406f80134edaaf06e4ab", divId: "adobe-dc-view"});
 								adobeDCView.previewFile({
-									content:{url: "publications/IEEE_ACCESS__Traffic_Classification.pdf"},
+									content:{location: {url: "publications/IEEE_ACCESS__Traffic_Classification.pdf"}},
 									metaData:{fileName: "IEEE_ACCESS__Traffic_Classification.pdf"}
 								}, {embedMode: "SIZED_CONTAINER"});
 							});
