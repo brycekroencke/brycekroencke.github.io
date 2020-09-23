@@ -42,29 +42,36 @@
 						<header class="major">
 							<h2>Publications</h2>
 						</header>
-						<div id="adobe-dc-view" style="height: 360px; width: 500px;"></div>
+						<!-- <div id="adobe-dc-view" style="height: 360px; width: 500px;"></div>
 						<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 						<script type="text/javascript">
 							document.addEventListener("adobe_dc_view_sdk.ready", function(){
 								var adobeDCView = new AdobeDC.View({clientId: "3bdd2334c3cd406f80134edaaf06e4ab", divId: "adobe-dc-view"});
 								adobeDCView.previewFile({
-									content:{location: {url: "publications/IEEE_ACCESS__Traffic_Classification.pdf"}},
+									content:{location: {url: "https://brycekroencke.github.io/publications/IEEE_ACCESS__Traffic_Classification.pdf"}},
 									metaData:{fileName: "IEEE_ACCESS__Traffic_Classification.pdf"}
 								}, {embedMode: "SIZED_CONTAINER"});
 							});
-						</script>
+						</script> -->
+
+
+						<!-- Customize page layout style according to your need and PDF file for best viewing experience -->
+						<!-- <body style="margin: 0px; background-color: #fdfdf9;"> -->
+						<button type="button" onclick="previewFile()" style="cursor: pointer; width: 120px; padding: 10px; font-family: 'Arial'; font-size: 15px; color: #ededed; border-radius: 5px; border: 1px #404040; background-color:#1473e6; margin: 100px 0 0 80px;">View PDF</button>
+						    <script type="text/javascript" src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+
 						<!-- <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 						<script type="text/javascript">
 							document.addEventListener("adobe_dc_view_sdk.ready", function(){
 								var adobeDCView = new AdobeDC.View({clientId: "3bdd2334c3cd406f80134edaaf06e4ab"});
 								adobeDCView.previewFile({
-									content:{url: "publications/IEEE_ACCESS__Traffic_Classification.pdf"},
-									metaData:{fileName: "IEEE_ACCESS__Traffic_Classification.pdf"}
+								content:{location: {url: "https://brycekroencke.github.io/publications/IEEE_ACCESS__Traffic_Classification.pdf"}},
+								metaData:{fileName: "IEEE_ACCESS__Traffic_Classification.pdf"}
 								}, {embedMode: "LIGHT_BOX"});
 							});
 						</script> -->
 						<div>
-							<div class="pub"><a href ="publications/IEEE_ACCESS__Traffic_Classification.pdf">Large-scale Mobile App Identification Using Deep Learning</a></div>
+							<div class="pub"><a href ="publications/IEEE_ACCESS_Traffic_Classification.pdf">Large-scale Mobile App Identification Using Deep Learning</a></div>
 							<div class="pub"><a href ="publications/corrosion_detection.pdf">Automated Detection of Stress Corrosion in Used Nuclear Fuel Dry Canisters Using Neural Networks</a></div>
 							<div class="pub"><a href ="publications/Supercomputing.pdf">Supercomputing 2018 Poster</a></div>
 						</div>
@@ -493,6 +500,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<script src="assets/js/index.js"></script>
 			<script src="assets/js/main.js"></script>
 
 	</body>
